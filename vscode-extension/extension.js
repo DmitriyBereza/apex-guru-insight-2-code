@@ -173,9 +173,9 @@ async function openDiff(payload) {
       const mergedPath = writeTmpFile("apexguru-merged", payload.className, mergedContent);
       await vscode.commands.executeCommand(
         "vscode.diff",
-        vscode.Uri.file(localPath),
         vscode.Uri.file(mergedPath),
-        `${titleBase} (Local vs ApexGuru Applied)`
+        vscode.Uri.file(localPath),
+        `${titleBase} (ApexGuru Applied -> Local)`
       );
       return;
     }
@@ -197,9 +197,9 @@ async function openDiff(payload) {
     const recommendedPath = writeTmpFile("apexguru-recommended", payload.className, payload.recommendedCode);
     await vscode.commands.executeCommand(
       "vscode.diff",
-      vscode.Uri.file(localPath),
       vscode.Uri.file(recommendedPath),
-      `${titleBase} (Local vs Recommended)`
+      vscode.Uri.file(localPath),
+      `${titleBase} (Recommended -> Local)`
     );
 
     const editor = vscode.window.activeTextEditor;
