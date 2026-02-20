@@ -1,0 +1,35 @@
+{
+  "name": "bridge",
+  "displayName": "ApexGuru Bridge",
+  "description": "Handles vscode://apexguru.bridge URIs and opens ApexGuru diffs in VS Code.",
+  "version": "0.1.0",
+  "publisher": "apexguru",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DmitriyBereza/apex-guru-insight-2-code.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": ["Other"],
+  "activationEvents": [
+    "onUri:apexguru.bridge",
+    "onCommand:apexguruBridge.showLastPayload"
+  ],
+  "main": "./extension.js",
+  "files": [
+    "extension.js",
+    "package.json",
+    "README.md",
+    "LICENSE"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "apexguruBridge.showLastPayload",
+        "title": "ApexGuru Bridge: Show Last Payload"
+      }
+    ]
+  }
+}

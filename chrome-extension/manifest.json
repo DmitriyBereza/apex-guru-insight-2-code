@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "ApexGuru to VS Code",
+  "version": "0.1.0",
+  "description": "Adds an Open in VS Code button to Salesforce ApexGuru Insights cards.",
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.lightning.force.com/*",
+        "*://*.my.salesforce.com/*",
+        "*://*.my.salesforce-setup.com/*",
+        "*://*.salesforce.com/*",
+        "*://*.force.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "options_page": "options.html"
+}
