@@ -53,11 +53,11 @@ Then in VS Code:
 
 ApexGuru page with injected buttons:
 
-![ApexGuru buttons](docs/screenshots/apexguru-buttons.svg)
+![ApexGuru buttons](docs/screenshots/apexguru-buttons.png)
 
 VS Code diff (local vs ApexGuru applied):
 
-![VS Code diff](docs/screenshots/vscode-diff.svg)
+![VS Code diff](docs/screenshots/vscode-diff.png)
 
 ## Notes
 
