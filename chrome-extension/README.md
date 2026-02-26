@@ -7,7 +7,12 @@ Adds buttons on Salesforce ApexGuru Insights cards:
 
 ## Install
 
-Install from the [Chrome Web Store](https://chromewebstore.google.com/detail/apexguru-to-vs-code).
+Coming soon to the Chrome Web Store. In the meantime, load it manually:
+
+1. Open `chrome://extensions`
+2. Enable `Developer mode`
+3. Click `Load unpacked`
+4. Select the `chrome-extension/` folder
 
 ## Options
 
