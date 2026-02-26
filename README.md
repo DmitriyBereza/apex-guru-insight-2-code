@@ -35,7 +35,7 @@ Chrome option:
 
 ### 2) VS Code extension
 
-Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apexguru.bridge).
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apexguru.apexguru-insight-bridge).
 
 ## Screenshots
 

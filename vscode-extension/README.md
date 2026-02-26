@@ -27,4 +27,4 @@ Handles:
 
 ## Install
 
-Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apexguru.bridge).
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apexguru.apexguru-insight-bridge).
