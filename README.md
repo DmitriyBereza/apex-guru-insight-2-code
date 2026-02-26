@@ -5,7 +5,7 @@ Integration between Salesforce ApexGuru Insights and VS Code.
 This repo contains two extensions:
 
 - `chrome-extension/` - injects actions into ApexGuru Insights page.
-- `vscode-extension/` - VS Code URI bridge (`apexguru.bridge`) that opens files/diffs.
+- `vscode-extension/` - VS Code URI bridge (`apexguru.apexguru-insight-bridge`) that opens files/diffs.
 
 ## Features
 
@@ -54,5 +54,5 @@ VS Code diff (local vs ApexGuru applied):
 
 ## Notes
 
-- URI handler is fixed to `vscode://apexguru.bridge/...`
-- If you see "apexguru.bridge not found", install VSIX in the same VS Code app handling `vscode://` links.
+- URI handler is fixed to `vscode://apexguru.apexguru-insight-bridge/...`
+- If you see "apexguru.apexguru-insight-bridge not found", install VSIX in the same VS Code app handling `vscode://` links.

@@ -1,7 +1,7 @@
 {
-  "name": "bridge",
+  "name": "apexguru-insight-bridge",
   "displayName": "ApexGuru Bridge",
-  "description": "Handles vscode://apexguru.bridge URIs and opens ApexGuru diffs in VS Code.",
+  "description": "Handles vscode://apexguru.apexguru-insight-bridge URIs and opens ApexGuru diffs in VS Code.",
   "version": "0.1.0",
   "publisher": "apexguru",
   "license": "MIT",
@@ -14,7 +14,7 @@
   },
   "categories": ["Other"],
   "activationEvents": [
-    "onUri:apexguru.bridge",
+    "onUri:apexguru.apexguru-insight-bridge",
     "onCommand:apexguruBridge.showLastPayload"
   ],
   "main": "./extension.js",

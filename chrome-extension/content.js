@@ -3,7 +3,7 @@
   const LOG_PREFIX = "[ApexGuru->VSCode]";
   const DIFF_BUTTON_CLASS = "apexguru-show-diff-vscode-btn";
   const OPEN_BUTTON_CLASS = "apexguru-open-vscode-btn";
-  const BRIDGE_EXTENSION_ID = "apexguru.bridge";
+  const BRIDGE_EXTENSION_ID = "apexguru.apexguru-insight-bridge";
   const VSCODE_SCHEME = "vscode";
   const defaults = {
     classesPath: ""
