@@ -25,17 +25,6 @@ Handles:
 2. `<classesPath>/<ClassName>.cls` (if provided)
 3. workspace search `**/<ClassName>.cls`
 
-## Package
-
-```bash
-cd vscode-extension
-npx @vscode/vsce package
-```
-
 ## Install
 
-In VS Code:
-
-1. `Extensions: Install from VSIX...`
-2. Select generated `bridge-0.1.0.vsix`
-3. Reload VS Code
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apexguru.apexguru-insight-bridge).

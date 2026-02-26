@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ApexGuru to VS Code",
   "version": "0.1.0",
-  "description": "Adds an Open in VS Code button to Salesforce ApexGuru Insights cards.",
+  "description": "Adds 'Show Diff in VS Code' and 'Open in VS Code' buttons to Salesforce ApexGuru Insights cards.",
   "permissions": ["storage"],
   "content_scripts": [
     {

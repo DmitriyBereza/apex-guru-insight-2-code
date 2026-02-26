@@ -1,4 +1,4 @@
-# apex-guru-insight-2-code
+# ApexGuru to VS Code
 
 Integration between Salesforce ApexGuru Insights and VS Code.
 
@@ -21,9 +21,11 @@ This repo contains two extensions:
 - `vscode-extension/`
 - `docs/screenshots/`
 
-## Setup
+## Install
 
-### 1) Install Chrome extension
+### 1) Chrome extension
+
+Coming soon to the Chrome Web Store. In the meantime, load it manually:
 
 1. Open `chrome://extensions`
 2. Enable `Developer mode`
@@ -36,18 +38,9 @@ Chrome option:
   - If set, uses `<classesPath>/<ClassName>.cls` first.
   - If empty, VS Code extension searches current workspace.
 
-### 2) Package and install VS Code extension
+### 2) VS Code extension
 
-```bash
-cd vscode-extension
-npx @vscode/vsce package
-```
-
-Then in VS Code:
-
-1. `Extensions: Install from VSIX...`
-2. Select generated `bridge-0.1.0.vsix`
-3. Reload VS Code
+Install from the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=apexguru.apexguru-insight-bridge).
 
 ## Screenshots
 
