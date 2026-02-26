@@ -4,8 +4,8 @@ URI bridge for the Chrome extension.
 
 Handles:
 
-- `vscode://apexguru.bridge/open-diff?...`
-- `vscode://apexguru.bridge/open-file?...`
+- `vscode://apexguru.apexguru-insight-bridge/open-diff?...`
+- `vscode://apexguru.apexguru-insight-bridge/open-file?...`
 
 ## Diff Behavior
 
