@@ -2,7 +2,7 @@
   "name": "apexguru-insight-bridge",
   "displayName": "ApexGuru Bridge",
   "description": "Handles vscode://apexguru.apexguru-insight-bridge URIs and opens ApexGuru diffs in VS Code.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "apexguru",
   "license": "MIT",
   "repository": {
